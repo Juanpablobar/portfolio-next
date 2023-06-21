@@ -1,0 +1,25 @@
+@import 'mixins';
+@import 'variables';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: $black;
+  color: $gray-font;
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+.shadowContainer{
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  padding: 30px;
+  border-radius: 10px;
+}
